@@ -1,7 +1,7 @@
 #+title: windepth
 #+author: sheng li
 #+date: <2019-04-24 Wed 23:33>
-#+html: <p align="center"><img src="best screenshot.png" /></p>
-#+html: <p align="center"><img src="Depth Charge Class Diagram.jpg" /></p>
-[[file:best screenshot.png]]
-[[file:Depth Charge Class Diagram.jpg]]
+* Screenshot
+#+html: <p align="center"><img src="best screenshot.png"/></p>
+* Class diagram
+#+html: <p align="center"><img src="Depth Charge Class Diagram.jpg"/></p>
