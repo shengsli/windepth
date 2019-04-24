@@ -1,1 +1,64 @@
-﻿
+﻿  AirSupportItem.cpp
+  AllyWeapon.cpp
+  BattleShip.cpp
+  Bomb.cpp
+  Bomber.cpp
+  Chain.cpp
+  DemoAMain.cpp
+  DemoBObject.cpp
+  DepthCharge.cpp
+  Explosion.cpp
+  GameObject.cpp
+  HighScoresState.cpp
+  InitState.cpp
+  Item.cpp
+  LifeItem.cpp
+  LoseState.cpp
+  MenuState.cpp
+  Mine.cpp
+  MinelayerSubmarine.cpp
+  Missile.cpp
+  Generating Code...
+  Compiling...
+  MissileSubmarine.cpp
+  PauseState.cpp
+  PlayState.cpp
+  Psysl5Engine.cpp
+  mainfunction.cpp
+  BaseEngine.cpp
+c:\dev\windepth\src\baseengine.cpp(726): warning C4838: conversion from 'unsigned int' to 'Uint8' requires a narrowing conversion
+  DisplayableObject.cpp
+  FontManager.cpp
+  JPGImage.cpp
+  Psysl5TileManager.cpp
+  Seagull.cpp
+  ShipExplosion.cpp
+  SimpleDemo.cpp
+  StrategicSubmarine.cpp
+  SubExplosion.cpp
+  SubLaunchedObject.cpp
+  Submarine.cpp
+  SubmarineCommander.cpp
+  SubWeapon.cpp
+  TileManager.cpp
+  Generating Code...
+  Compiling...
+  BouncingBall.cpp
+  BouncingBallMain.cpp
+  Demo1Main.cpp
+  Demo2Main.cpp
+  Demo2Object.cpp
+  Demo2TileManager.cpp
+  Demo3Main.cpp
+  Demo3Object.cpp
+  Demo3ObjectFinished.cpp
+  Demo3TileManager.cpp
+  Demo4Main.cpp
+  Demo4Object.cpp
+  Demo4TileManager.cpp
+  UnderWaterMine.cpp
+  UnderWaterSupportItem.cpp
+  WeaponExplosion.cpp
+  Generating Code...
+AirSupportItem.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  CourseworkBase.vcxproj -> C:\dev\windepth\/Debug\CourseworkBase.exe
