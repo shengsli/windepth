@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{4e4a6a07-d337-42ef-975e-413637bbb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{82649680-6f01-4f4b-9016-33d2f9930b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos">
+      <UniqueIdentifier>{4af3086a-f0ad-4421-8647-84b711bdf81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos">
+      <UniqueIdentifier>{43825ca5-b5e1-402d-a57a-be1b7f41d1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lab">
+      <UniqueIdentifier>{7a23e8c8-6641-4474-a91c-e361db5c204d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab">
+      <UniqueIdentifier>{d4cea252-8b6a-472c-97e0-bb7b15fa09c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DepthCharge">
+      <UniqueIdentifier>{7a7f5b6f-687e-448b-aded-dc472ffd0d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthCharge">
+      <UniqueIdentifier>{815baf29-f447-4764-b4ce-df220892979f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DepthCharge\GameStates">
+      <UniqueIdentifier>{19218c6b-7409-4d82-b580-f68c744fc1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthCharge\GameStates">
+      <UniqueIdentifier>{e177068a-a232-441a-8a21-327b961d8c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{de9114c6-cfc5-4c20-a5f2-e16bcfc30303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthCharge\GameObjects">
+      <UniqueIdentifier>{43d4e85b-e481-4052-9390-f23445e8446d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DepthCharge\GameObjects">
+      <UniqueIdentifier>{20727da0-b855-47c7-9b8c-d91a366f98ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DepthCharge\GameObjects\Explosion">
+      <UniqueIdentifier>{1185c9f6-c7b0-4ce7-b294-43c673dbf856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthCharge\GameObjects\Explosion">
+      <UniqueIdentifier>{ef2ebed8-c3ff-4714-9ca8-a35e6083017d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DepthCharge\GameObjects\Items">
+      <UniqueIdentifier>{922e3a6b-589c-4d52-ae75-e2fc0049e4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthCharge\GameObjects\Items">
+      <UniqueIdentifier>{b6a17951-fefe-4537-a6e3-ff772c14a29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthCharge\GameObjects\Submarines">
+      <UniqueIdentifier>{5a7df1f5-96f7-41fa-ad53-a912d115ecee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DepthCharge\GameObjects\Submarines">
+      <UniqueIdentifier>{fae92420-814b-4b22-89e4-1629b1534712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthCharge\GameObjects\AllyWeapons">
+      <UniqueIdentifier>{43947092-b16a-4df4-8428-04c7ee6f0c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthCharge\GameObjects\SubWeapons">
+      <UniqueIdentifier>{14e464bc-305f-419e-b0f3-68bc13e11394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DepthCharge\GameObjects\AllyWeapons">
+      <UniqueIdentifier>{8fc9d2c4-2413-4306-bc28-57de53e5e38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DepthCharge\GameObjects\SubWeapons">
+      <UniqueIdentifier>{5482ae8c-50a0-44bd-bc9f-fa10b3b9b3c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="JPGImage.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPosition.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="templates.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBall.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBallMain.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2Main.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2Object.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2TileManager.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3Main.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3Object.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3ObjectFinished.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3TileManager.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4Main.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4Object.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4TileManager.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo1Main.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleDemo.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoBObject.h">
+      <Filter>Header Files\Lab</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoAMain.h">
+      <Filter>Header Files\Lab</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\DepthCharge\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\DepthCharge\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="LoseState.h">
+      <Filter>Header Files\DepthCharge\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="InitState.h">
+      <Filter>Header Files\DepthCharge\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\DepthCharge\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip.h">
+      <Filter>Header Files\DepthCharge\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomber.h">
+      <Filter>Header Files\DepthCharge\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Chain.h">
+      <Filter>Header Files\DepthCharge\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\DepthCharge\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Seagull.h">
+      <Filter>Header Files\DepthCharge\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SubLaunchedObject.h">
+      <Filter>Header Files\DepthCharge\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoresState.h">
+      <Filter>Header Files\DepthCharge\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreAndName.h">
+      <Filter>Header Files\DepthCharge</Filter>
+    </ClInclude>
+    <ClInclude Include="Psysl5TileManager.h">
+      <Filter>Header Files\DepthCharge</Filter>
+    </ClInclude>
+    <ClInclude Include="Psysl5Engine.h">
+      <Filter>Header Files\DepthCharge</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponExplosion.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipExplosion.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="SubExplosion.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="AirSupportItem.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeItem.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="UnderWaterSupportItem.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="MinelayerSubmarine.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Submarines</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileSubmarine.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Submarines</Filter>
+    </ClInclude>
+    <ClInclude Include="Submarine.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Submarines</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategicSubmarine.h">
+      <Filter>Header Files\DepthCharge\GameObjects\Submarines</Filter>
+    </ClInclude>
+    <ClInclude Include="AllyWeapon.h">
+      <Filter>Header Files\DepthCharge\GameObjects\AllyWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Header Files\DepthCharge\GameObjects\AllyWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthCharge.h">
+      <Filter>Header Files\DepthCharge\GameObjects\AllyWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="SubmarineCommander.h">
+      <Filter>Header Files\DepthCharge</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Header Files\DepthCharge\GameObjects\SubWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Mine.h">
+      <Filter>Header Files\DepthCharge\GameObjects\SubWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="SubWeapon.h">
+      <Filter>Header Files\DepthCharge\GameObjects\SubWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="UnderWaterMine.h">
+      <Filter>Header Files\DepthCharge\GameObjects\AllyWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\DepthCharge\GameStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEngine.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayableObject.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="JPGImage.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBall.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBallMain.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2Main.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2Object.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2TileManager.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3Main.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3Object.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3ObjectFinished.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3TileManager.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4Main.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4Object.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4TileManager.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo1Main.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleDemo.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoAMain.cpp">
+      <Filter>Source Files\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoBObject.cpp">
+      <Filter>Source Files\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="InitState.cpp">
+      <Filter>Source Files\DepthCharge\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="LoseState.cpp">
+      <Filter>Source Files\DepthCharge\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\DepthCharge\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\DepthCharge\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomber.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Chain.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Seagull.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SubLaunchedObject.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScoresState.cpp">
+      <Filter>Source Files\DepthCharge\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Psysl5TileManager.cpp">
+      <Filter>Source Files\DepthCharge</Filter>
+    </ClCompile>
+    <ClCompile Include="Psysl5Engine.cpp">
+      <Filter>Source Files\DepthCharge</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponExplosion.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="SubExplosion.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipExplosion.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="AirSupportItem.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="UnderWaterSupportItem.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeItem.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Submarine.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Submarines</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategicSubmarine.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Submarines</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileSubmarine.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Submarines</Filter>
+    </ClCompile>
+    <ClCompile Include="MinelayerSubmarine.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\Submarines</Filter>
+    </ClCompile>
+    <ClCompile Include="AllyWeapon.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\AllyWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\AllyWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthCharge.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\AllyWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="SubmarineCommander.cpp">
+      <Filter>Source Files\DepthCharge</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\SubWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Mine.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\SubWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="SubWeapon.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\SubWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="UnderWaterMine.cpp">
+      <Filter>Source Files\DepthCharge\GameObjects\AllyWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\DepthCharge\GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="top_ten_scores.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

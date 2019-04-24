@@ -1,0 +1,12 @@
+#pragma once
+#include "GameObject.h"
+class Bomber :
+	public GameObject
+{
+public:
+	Bomber(Psysl5Engine* pEngine);
+	~Bomber();
+	void Draw();
+	void DoUpdate(int iCurrentTime);
+};
+
